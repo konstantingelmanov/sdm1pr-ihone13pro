@@ -121,7 +121,7 @@ h1 {
     left: 105px;
     width: 30px;
     height: 30px;
-    background-image: url(resources/Arrow_down_icon.png);
+    background-image: url(/resources/Arrow_down_icon.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
