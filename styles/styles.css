@@ -1,0 +1,472 @@
+body {
+    width: 1595px;
+    margin: 0 auto;
+}
+
+.section_1,
+.section_2,
+.section_3,
+.section_4,
+.section_5,
+.section_6,
+footer {
+    width: 100%; 
+}
+
+.section_1 {
+    height: 913px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color: #121212;
+}
+.section_2 {
+    height: 719px;
+    font-family: "Raleway", sans-serif;
+    text-align: center; 
+}
+.section_3 {
+    height: 567px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #1d1b1c;
+}
+.section_4 {
+    height: 959px;
+}
+.section_5 {
+    height: 836px;
+    background-color: #1B1B1B;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    /* вырез в виде "галочки" или "V-образного" низа секции chatGPT*/
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 50% 100%, 0 92%);
+}
+.section_6 {
+    height: 485px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Секция 1 */
+.section1__title {
+    padding-top: 111px;
+    padding-bottom: 6px;
+    min-width: 933px;
+    height: 166px;
+    line-height: 166px; 
+    font-size: 140px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    letter-spacing: 4.20px; 
+    color: #ffffff; 
+}
+.section1__text {
+    margin-bottom: 62px;
+    position: relative;
+    height: 55px; 
+    font-size: 36px;
+    line-height: 36px; 
+    font-weight: 500; 
+    letter-spacing: 1.08px;
+    color: #F5F5F5; 
+}
+.iphones-group-image {
+    width: 80vw;
+    max-width: 1299px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Секция 2 */
+h1 {
+    margin-top: 245px;
+    width: 100%;
+    height: 166px; 
+    line-height: 166px;
+    font-size: 64px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262525;
+}
+.description_block {
+    width: 967px; 
+    height: 210px; 
+    margin: 0 auto;
+}
+.description {
+    font-size: 24px; 
+    font-weight: 500; 
+    line-height: 37.78px;
+    color: #262525;
+}
+.choice {
+    width: 241px; 
+    height: 36px; 
+    margin: 0 auto;
+    padding-top: 14px;
+}
+.choice_text {
+    position: relative;
+    font-size: 20px; 
+    font-weight: 500;
+    line-height: 31.48px;
+    color: #262525; 
+}
+.choice_text::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 105px;
+    width: 30px;
+    height: 30px;
+    background-image: url(/resources/Arrow_down_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Секция 3 */
+.Iphone13ProBlack {
+    width: 1261px; 
+    height: 624.59px;
+    display: block;
+    position: absolute;
+    bottom: 96.41px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-image: url(/resources/iPhone_13_Pro_Black.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Iphone13ProBlack__text {
+    padding-top: 112px;
+    padding-left: 130px;
+    width: 941px; 
+    height: 387px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+.Iphone13ProBlack__text-top {
+    margin-bottom: 37px;
+    padding-left: 95px;
+    width: 811px; 
+    height: 166px; 
+    font-size: 48px; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+    line-height: 60px;
+    color: white;
+}
+.Iphone13ProBlack__text-center {
+    padding-left: 55px;
+    width: 874px; 
+    height: 75px; 
+    font-size: 36px; 
+    font-weight: 500; 
+    line-height: 56.66px;
+    color: #F5F5F5;
+}
+.Iphone13ProBlack__text-bottom {
+    padding-left: 25px;
+    width: 941px; 
+    height: 88px; 
+    font-size: 24px; 
+    font-weight: 500; 
+    line-height: 30px; 
+    color: #7A7A7A;
+}
+
+/* Секция 4 */
+.choose-an-iPhone {
+    padding-top: 87px;
+    padding-right: 10px;
+    margin-bottom: 46px;
+    height: 59px; 
+    text-align: center; 
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #292929;
+}
+.choose-an-iPhone__block {
+    text-align: center;
+    padding-left: 20px;
+    
+}
+.card-iphone {
+    display: inline-block;
+    margin-right: 20px;
+    width: 384px; 
+    height: 655px;
+    background-color: #1B1B1B;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.card-iphone__image {
+    width: 384px; 
+}
+.card-iphone__textgroup {
+    padding: 24px;
+    text-align: left;
+}
+.card-iphone__name {
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+.card-iphone__color {
+    margin-bottom: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+}
+.card-iphone__price {
+    margin-bottom: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #F1F8FF;
+}
+.add-to-cart-btn {
+    width: 336px; 
+    height: 66px;
+    background-color: white; 
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center; 
+    color: black; 
+    font-size: 20px;
+    cursor: pointer;
+}
+.add-to-cart-btn:hover {
+    background-color: rgb(232, 232, 232);
+}
+/* Реализовано с помощью chatGPT */
+.dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    gap: 10px;
+    margin-top: 35px;
+}
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.dot.active {
+    opacity: 1;
+}
+.dot:hover {
+    opacity: 1;
+}
+
+/* Секция 5 */
+.section_5__title {
+    padding: 70px 5px 30px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 38px;
+    color: white; 
+}
+.PRO-color {
+    color: #ffff00;
+}
+.section_5__text {
+    margin: 0 auto;
+    padding-right: 5px;
+    width: 607px; 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #F5F5F5;
+}
+.section_5__image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 53px;
+}
+
+/* Секция 6 */
+.section6-left-block {
+    display: inline-block;
+    width: 674px;
+    margin: 73px 80px 93px 197px;
+}
+.form-block {
+    position: absolute;
+    text-align: center;
+    right: 224px;
+    top: 164px;
+}
+.form-block__title {
+    margin-bottom: 35px;
+    width: 419px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #727272;     
+}
+.form-wrapper {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 999px;
+}
+.email-form {
+    white-space: nowrap; /* расположение элементов в строку */
+}
+.email-form-space {
+    padding: 15px 20px;
+    width: 210px;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #545454;  
+}
+.email-form-btn {
+    padding: 16px 42px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 32px;
+    cursor: pointer;
+    background-color: #262525;
+    color: #fff;
+}
+.email-form-btn:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    height: 343px;
+    display: inline-block;
+    background-color: #1D1C1C;
+    color: #ffffff;
+}
+.footer-section-company-info {
+    margin: 4px 401px 95px 146px;
+    padding-top: 84px;
+    width: 320px;
+    height: 164px;
+    display: inline-block;
+}
+.company-info__title {
+    margin-bottom: 14px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: white; 
+}
+.company-info__text {
+    margin-bottom: 32px;
+    width: 320px; 
+    height: 63px; 
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    line-height: 21px;
+    color: #C8C8C8;
+}
+.footer-icons {
+    width: 270px; 
+    height: 32px; 
+    display: inline-block;
+}
+.footer-icon-image {
+    width: 32px; 
+    height: 32px; 
+    overflow: hidden;
+    background-color: #2c2c2c;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.footer-icon-image:hover {
+    background-color: rgb(15, 0, 130);
+}
+
+.footer-section-right {
+    margin: 74px 140px 68px 0px;
+    width: 588px; 
+    height: 207px;
+    float: right;
+    box-sizing: border-box;
+}
+h4 {
+    width: 160px;
+    margin-bottom: 33px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #EFEEEF;
+}
+.footer-section-links {
+    width: 180px;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #C8C8C8;
+}
+li {
+    margin-bottom: 19px;
+}
+.footer-link {
+    color: #C8C8C8;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #ffff00;
+}
+.footer-section-stayup {
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-section-stayup__title {
+    margin-bottom: 26px;
+}
+.footer-btn {
+    width: 220px;
+    padding: 16px 24px; 
+    background: #545454; 
+    border-radius: 32px;
+    border: none;
+    text-align: center; 
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #C8C8C8;
+}
+.btn-icon {
+    width: 18px;
+    height: 18px;
+    margin-left: 4px;
+}
+.footer-btn:hover {
+    background: #ffff00;
+    color: black;
+}
